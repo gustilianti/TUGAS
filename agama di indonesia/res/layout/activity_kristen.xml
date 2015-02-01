@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.agamadiindonesia.kristenActivity" >
+
+ <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="KRISTEN"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="\n" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/dua" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="\nPenjelasan Agama Kristen"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="\ Pemimpin Agama          :  Pendeta\n\n
+\  Kitab Suci              : Alkitab \n\n
+Tempat Ibadah           : Gereja\n\n
+  Nama pendiri	        : Yesus Kristus\n\n
+ Permulaan		        : Sekitar 2000 tahun yang lalu \n\n
+ Hari Besar Keagamaan   : Natal, Hari Jum’at Agung, Paskah, Kenaikan Isa Almasih \n\n
+Kristen Protestan berkembang di Indonesia selama masa kolonialBelanda (VOC), pada sekitar abad ke-16. Kebijakan VOC yang mereformasi Katolik dengan sukses berhasil meningkatkan jumlah penganut paham Protestan di Indonesia. Agama ini berkembang dengan sangat pesat pada abad ke-20, yang ditandai oleh kedatangan para misionaris dari Eropa ke beberapa wilayah di Indonesia, seperti di wilayah barat Papua dan lebih sedikit di kepulauan Sunda.Pada 1965, ketika terjadi perebutan kekuasaan, orang-orang tidak beragama dianggap sebagai orang-orang yang tidak ber-Tuhan, dan karenanya tidak mendapatkan hak-haknya yang penuh sebagai warganegara. Sebagai hasilnya, gereja Protestan mengalami suatu pertumbuhan anggota.
+Protestan membentuk suatu perkumpulan minoritas penting di beberapa wilayah. Sebagai contoh, di pulau Sulawesi, 17% penduduknya adalah Protestan, terutama di Tana Toraja, Sulawesi Tengah dan Sulawesi Utara. Sekitar 75% penduduk di Tana Toraja adalah Protestan. dibeberapa wilayah, keseluruhan desa atau kampung memiliki sebutan berbeda terhadap aliran Protestan ini, tergantung pada keberhasilan aktivitas para misionaris. \n\n
+
+  "/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+    

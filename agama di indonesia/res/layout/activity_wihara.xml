@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.agamadiindonesia.wihara_Activity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="BUDDHA"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/empat" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="\nPenjelasan Agama Buddha"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text=" Pemimpin Agama            : Bhiksu / Biksu\n\n
+  Kitab Suci                          : Tripitaka \n\n
+  Tempat Ibadah                : Wihara / Vihara \n\n
+ Nama pendiri                   : Siddharta Gautama \n\n
+Permulaan		        : Sekitar 2500 tahun yang lalu \n\n
+Hari Besar Keagamaan   :Hari Waisak, Hari Asadha, Hari Kathina \n\n
+Buddha  merupakan agama tertua kedua di Indonesia, tiba pada sekitar abad keenam masehi.Sejarah Buddha di Indonesia berhubungan erat dengan sejarah Hindu, sejumlah kerajaan Buddha telah dibangun sekitar periode yang sama Seperti kerajaan Sailendra, Sriwijaya dan Mataram. \n\n  " /> 
+               
+                
+                
+              
+                
+                
+              
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+

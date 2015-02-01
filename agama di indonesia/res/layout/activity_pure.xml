@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.agamadiindonesia.pureActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Buddha"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/empat" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="\nPenjelasan Agama Buddha"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Pemimpin Agama            : Bhiksu / Biksu\n\n
+  Kitab Suci                          : Tripitaka \n\n
+  Tempat Ibadah                : Wihara / Vihara \n\n
+Nama pendiri 	        : Siddharta Gautama \n\n
+Permulaan 	        : Sekitar 2500 tahun yang lalu \n\n
+Hari Besar Keagamaan   : Hari Waisak, Hari Asadha, Hari Kathina \n\n
+                Buddha  merupakan agama tertua kedua di Indonesia, tiba pada sekitar abad keenam masehi.Sejarah Buddha di Indonesia berhubungan erat dengan sejarah Hindu, sejumlah kerajaan Buddha telah dibangun sekitar periode yang sama Seperti kerajaan Sailendra, Sriwijaya dan Mataram.   \n\n
+                Kedatangan agama Buddha telah dimulai dengan aktivitas perdagangan yang mulai pada awal abad pertama melalui Jalur Sutra antara India dan Indonesia. \n\n 
+                Sejumlah warisan dapat ditemukan di Indonesia, mencakup candi Borobudur di Magelang dan patung atau prasasti dari sejarah Kerajaan Buddha yang lebih awal Mengikuti kejatuhan Soekarno pada pertengahan tahun 1960-an, dalam Pancasila ditekankan lagi pengakuan akan satu Tuhan (monoteisme) Sebagai hasilnya, pendiri Perbuddhi (Persatuan Buddha Indonesia), Bhikku Ashin Jinarakkhita, mengusulkan bahwa ada satu dewata tertinggi, Sang Hyang Adi Buddha. Hal ini didukung dengan sejarah di belakang versi Buddha Indonesia pada masa lampau menurut teks Jawa kuno dan bentuk candi Borobudur. \n\n
+               Menurut sensus nasional tahun 2000, kurang lebih dari 2% dari total penduduk Indonesia beragama Buddha, sekitar 4 juta orang. Kebanyakan penganut agama Buddha berada di Jakarta, walaupun ada juga di lain provinsi seperti Riau, Sumatera Utara dan Kalimantan Barat. \n\n
+                Namun, jumlah ini mungkin terlalu tinggi, mengingat agama Konghucu dan Taoisme tidak dianggap sebagai agama resmi di Indonesia, sehingga dalam sensus diri mereka dianggap sebagai penganut agama Buddha. \n\n "/>
+                
+                
+              
+                
+                
+              
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+

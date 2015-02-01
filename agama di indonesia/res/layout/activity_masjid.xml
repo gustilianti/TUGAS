@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.agamadiindonesia.masjidActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="MASJID"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="\n" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/satu" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="\nPenjelasan Agama Islam"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="\ Pemimpin Agama          : Kyai / Ulama.\n\n\  Kitab Suci              : Al Qur`an \n\n
+Tempat Ibadah           : Masjid \n\n
+  Nama pendiri	        : Nabi Muhammad SAW \n\n
+ Permulaan		        : Sekitar 1400 tahun yang lalu \n\n
+ Hari Besar Keagamaan   : Idul Fitri, Idul Adha, Tahun Baru Hijriah, Isra’ Mi’raj \n\n
+ Indonesia merupakan negara dengan penduduk Muslim terbanyak di dunia, dengan 85% dari jumlah penduduk adalah penganut ajaran Islam. Mayoritas Muslim dapat dijumpai di wilayah barat Indonesia seperti di Jawa dan Sumatera. Sedangkan di wilayah timur Indonesia, persentase penganutnya tidak sebesar di kawasan barat.Sekitar 98% Muslim di Indonesia adalah penganut aliran Sunni. Sisanya, sekitar dua juta pengikut adalah Syiah (di atas satu persen), berada di Jawa.
+Sejarah Islam di Indonesia sangatlah kompleks dan mencerminkan keanekaragaman dan kesempurnaan tersebut kedalam kultur. Pada abad ke-12, sebagian besar pedagang orang Islam dari India tiba di pulau Sumatera, Jawa dan Kalimantan. Hindu yang dominan beserta kerajaan Buddha, seperti Majapahit dan Sriwijaya mengalami kemunduran, dimana banyak pengikutnya berpindah agama ke Islam. Dalam jumlah yang lebih kecil, banyak penganut Hindu yang berpindah ke Bali, sebagian Jawa dan Sumatera. Dalam beberapa kasus, ajaran Islam di Indonesia dipraktikkan dalam bentuk yang berbeda jika dibandingkan dengan Islam daerah Timur Tengah.
+  "/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

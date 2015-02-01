@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AGAMA DI INDONESIA</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_masjid">masjid</string>
+    <string name="title_activity_hindu">hindu</string>
+    <string name="title_activity_katolik">katolik</string>
+    <string name="title_activity_konghucu">konghucu</string>
+    <string name="title_activity_kristen">kristen</string>
+    <string name="title_activity_pure">pure</string>
+    <string name="title_activity_wihara">wihara</string>
+
+</resources>
